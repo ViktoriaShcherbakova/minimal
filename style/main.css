@@ -447,7 +447,6 @@ a:hover:after {
 }
 
 @media (max-width: 1023px) {
-
     .cards-wrapper {
         flex-direction: column;
         align-items: center;
@@ -494,6 +493,18 @@ a:hover:after {
 
     .sec-7 .cards-wrapper {
         gap: 40px;
+    }
+}
+
+@media (max-width: 480px) {
+    .img {
+        width: 100%;
+        max-width: 300px;
+        height: 270px;
+    }
+
+    .img-wrapper {
+        padding: 50px 71px;
     }
 }
 
